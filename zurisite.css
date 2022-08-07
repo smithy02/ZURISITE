@@ -302,6 +302,12 @@
   #toggle{
     display: none;
   }
+  #top-left{
+    display: none;
+  }
+  #top-right{
+    display: none;
+  }
 }
 @media screen and (max-width: 1000px) {
   .header-box4 {
@@ -372,6 +378,12 @@
   #talent {
     margin-top: 6px;
     margin-bottom: 25px;
+  }
+  #top-left{
+    display: none;
+  }
+  #top-right{
+    display:none;
   }
 
   #size {
