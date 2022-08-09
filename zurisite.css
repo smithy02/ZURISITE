@@ -340,7 +340,14 @@
   #toggle{
     display: none;
   }
+  #talent-div-after-third-mother-img{
+    display: none;
+  }
+  #talent-after-third-mother-img{
+    display: none;
+  }
 }
+
 .lady1 {
   margin-top: 10vh;
 }
@@ -404,6 +411,15 @@
     text-align: center;
     justify-content: space-evenly;
   }
+  #talent-after-fourth-m-box-design{
+    padding:20px;
+    background: #e7332b;
+    
+  }
+  #talent-after-fourth-mother-m{
+    display: none;
+    
+  }
   
 }
 @media screen and(max-width: 640px){
@@ -422,6 +438,30 @@
     text-align: center;
     justify-content: center;
   }
+}
+@media screen and (max-width:860px){
+  #talent-div-impact{
+    display: none;
+  }
+  #talent-div-home{
+    display: none;
+  }
+   #talent-div-impact{
+    display: none;
+  }
+  #talent-p-header{
+    display: none;
+  }
+   #talent-div-header-btn{
+    /* display:none ; */
+    width: 25%;
+    margin-left: 7rem;
+  }
+  #talent-div-zuri-logo{
+    width:25%;
+    margin-left: -6rem;
+  }
+
 }
 
 @media screen and (max-width: 420px) {
@@ -516,6 +556,40 @@
   .train-button-enroll{
     display: none;
   }
+  /* #talent-div-header-btn{
+    display: none;
+  } */
+  
+  
+  
+  #talent-div-header-btn{
+    /* display:none ; */
+    width: 25%;
+    margin-left: 7rem;
+  }
+  #talent-div-zuri-logo{
+    width:25%;
+    margin-left: -6rem;
+  }
+  #talent-after-footer-pnormal1{
+    font-size: 10px;
+  }
+  #talent-after-footer-pnormal2{
+    color: rgb(255,255, 255);
+    
+}
+#talent-after-footer-logo-cage{
+    display: flex;
+    gap: 10px;
+    margin-top: 13vh;
+    
+}
+#logos{
+  width: 25px;
+}
+#logos-differ{
+  width: 40px;
+}
   /* #appear{
     margin-left: 30px;
   } */

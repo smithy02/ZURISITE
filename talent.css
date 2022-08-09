@@ -1,0 +1,368 @@
+#talent-general-div {
+  /* background: blue; */
+  /* height: 90vh; */
+  max-width: 100%;
+  width: 100%;
+}
+#talent-div-header {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+#talent-div-zuri-logo {
+  /* background: gold; */
+  width: 55%;
+}
+#talent-zuri-logo {
+  /* width: 15%; */
+  margin-top: 3vh;
+  margin-left: 10rem;
+}
+#talent-p-header {
+  font-size: 20px;
+  text-decoration: none;
+}
+.talent-header-href {
+  color: black;
+  text-decoration: none;
+}
+
+#talent-div-home {
+  /* background: red; */
+  width: 8%;
+  margin-right: 3px;
+}
+#talent-div-impact {
+  /* background: green; */
+  width: 8%;
+  margin-right: 3px;
+}
+#talent-div-why-us {
+  /* background-color: purple; */
+  margin-right: 2px;
+  width: 8%;
+}
+#talent-div-header-btn {
+  /* background: black; */
+  width: 20%;
+}
+#talent-header-btn-hire {
+  background-color: red;
+  color: white;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-top: 2vh;
+  border-style: none;
+  border-bottom-right-radius: 7px;
+}
+#talent-div-first-mother {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#talent-div-after-first-mother {
+  /* background: blue; */
+  /* min-height: 90vh; */
+  width: 82%;
+  display: flex;
+  gap: 20%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+#talent-div-after-first-left-side {
+  /* background: green; */
+  width: 40%;
+  margin-top: 15vh;
+}
+#talent-div-after-first-right-side {
+  /* background: grey; */
+  width: 40%;
+}
+#talent-phead-after-first {
+  font-weight: bold;
+  font-size: 32px;
+}
+#talent-pnormal-after-first {
+  font-size: 18px;
+}
+#talent-first-mother-btns {
+  /* background: yellow; */
+  margin-top: 10vh;
+}
+#talent-first-m-btn {
+  color: white;
+  background: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border-style: none;
+  border-bottom-right-radius: 8px;
+  margin-right: 20px;
+}
+#talent-second-m-btn {
+  color: white;
+  background: grey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+  border-style: none;
+  border-bottom-right-radius: 8px;
+}
+#talent-first-m-right-img {
+  width: 100%;
+}
+#talent-first-m-left-img {
+  width: 25%;
+  margin-left: 58%;
+}
+#talent-div-second-mother {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-image: url(background-img-talent.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#talent-div-after-second-mother {
+  width: 82%;
+  /* background:blue; */
+  /* height: 90vh;  */
+  display: flex;
+}
+#talent-div-after-second-m-left {
+  /* background: green; */
+  width: 40%;
+}
+#talent-div-after-second-m-right {
+  /* background: gray; */
+  width: 40%;
+  margin-left: 20%;
+}
+#talent-div-after-second-m-right-content {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+#talent-second-mother-phead {
+  font-weight: bold;
+  font-size: 30px;
+}
+#talent-div-second-m-left-up {
+  /* background: yellow; */
+  margin-top: 22vh;
+  margin-bottom: 2vh;
+}
+#talent-div-second-m-left-down {
+  /* background: brown; */
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+#talent-second-mother-pnormal1 {
+  font-size: 17px;
+  line-height: 22px;
+}
+#talent-second-mother-pnormal2 {
+  font-size: 17px;
+  line-height: 22px;
+}
+
+#talent-div-third-mother {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#talent-first-after-third-mother {
+  display: flex;
+  /* background-color: blue; */
+  /* height: 90vh; */
+  width: 82%;
+  flex-direction: column;
+  /* margin-left: 9%; */
+}
+#talent-div-after-third-m-upper-half {
+  width: 100%;
+  /* background-color: green; */
+  margin-top: 12vh;
+}
+#talent-div-after-third-m-lower-half {
+  width: 100%;
+  /* background-color: gray; */
+  margin-bottom: 8vh;
+}
+#talent-after-third-mother-phead {
+  font-size: 28px;
+  font-weight: bold;
+}
+#talent-after-third-m-upper-btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 5vh;
+}
+.talent-after-third-m-btns {
+  color: #787878;
+  /* background: whitesmoke; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-style: none;
+  box-shadow: 0 8px 30px hsla(0, 0%, 48%, 0.16) !important;
+  border-radius: 5px;
+}
+.talent-after-third-m-btns:hover {
+  margin-top: -10vh;
+}
+#talent-div-after-third-mother-img {
+  /* background-color: red;  */
+  display: flex;
+  justify-content: right;
+}
+#talent-div-fourth-mother {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  background: rgb(255, 248, 229);
+}
+#talent-div-after-fourth-mother {
+  width: 80%;
+  /* background-color: blue; */
+  /* height: 90vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#talent-div-after-fourth-m-header {
+  /* background-color: green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+#talent-after-fourth-m-phead {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 12vh;
+  margin-bottom: 5vh;
+}
+#talent-div-after-fourth-m-boxes {
+  /* background-color: gray; */
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+#talent-after-fourth-m-box-design {
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  color:#787878;
+  /* justify-content: center; */
+}
+#talent-after-fourth-m-box-design:hover{
+    background: black;
+    color: white;
+}
+#talent-after-fourth-mother-m {
+  display: flex;
+  justify-content: left;
+  margin-left: -157%;
+  margin-top: -39vh;
+}
+#talent-after-fourth-m-btns {
+  /* background-color: yellow; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+ 
+  gap: 15px;
+}
+/* #talent-after-fourth-m-pnormal {
+   color: #787878;
+} */
+#talent-after-fourth-m-btn-left {
+  background: red;
+  color: white;
+   padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-style: none;
+  border-bottom-right-radius: 5px;
+   margin-bottom:8vh;
+}
+
+#talent-after-fourth-m-btn-right {
+  background: #787878;
+  color: white;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-style: none;
+  border-bottom-right-radius: 5px;
+   margin-bottom:8vh;
+}
+#talent-footer{
+    /* background-color: blue; */
+    height: 29vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    background-color: black;
+}
+#talent-after-footer-cage{
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 88%;
+    gap: 20%;
+}
+#talent-after-footer-right{
+    width:40% ;
+    /* background: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+#talent-after-footer-left{
+    width: 40%;
+    /* background-color: green; */
+}
+#talent-footer-zuri-logo{
+margin-top: 12vh;
+margin-bottom: 5vh;
+}
+#talent-after-footer-pnormal1{
+    color: white;
+}
+ #talent-after-footer-pnormal2{
+    color: white;
+    margin-left:27%;
+}
+#talent-after-footer-logo-cage{
+    display: flex;
+    gap: 10px;
+    margin-left:15%;
+    margin-top: 13vh;
+} 
