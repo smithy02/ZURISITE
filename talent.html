@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="zurisite.css" />
     <link rel="stylesheet" href="talent.css" />
+    <link rel="stylesheet" href="javascript-course.css">
     <title>Zuri Talent Page</title>
   </head>
   <body>
@@ -30,9 +31,33 @@
           </p>
         </div>
         <div id="talent-div-header-btn">
-          <a href="#"
-            ><button id="talent-header-btn-hire">Hire talent</button></a
+          
+               <div
+      class="popup"
+      onclick="myFunction()"
+      style="
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 20vh;
+      "
+    >
+      <a href="#"
+            ><button id="talent-header-btn-hire">Hire Talent<script src="javascript-course.js"></script>
+            </button></a
           >
+      <span class="popuptext" id="myPopup"><h1 id="span1">Talent <br> Requirement</h1>
+      <h2 id="span2">We will love to discuss your business  <br> and your talent needs.</h2> 
+    <!-- <button id="popup-first-btn">Fill this form</button> -->
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYdC1BffwmsdWZpS74Rvq6V_0kuN_HMlMwmoqUvI7WTEAHJg/viewform"> <button id="popup-first-btn">Fill this form</button> </a><br>
+    <br>
+    <h3 id="span3">OR</h3>
+    <!-- <button id="popup-second-btn">Book a Consultation</button> -->
+  <a href="https://calendly.com/zuri-team/consult-with-seyi?month=2022-08"> <button id="popup-second-btn">Book a Consultation</button> </a>
+  </span>
+    </div>
+
+    
         </div>
       </div>
       <div id="talent-div-first-mother">
@@ -57,8 +82,28 @@
                 <br />the tech industry.
               </p>
               <div id="talent-first-mother-btns">
-                <button id="talent-first-m-btn">Hire Talent</button>
-                <button id="talent-second-m-btn">Join Talented pool</button>
+                 <div><button id="talent-first-m-btn" onclick="myFunction()">
+                Hire talents
+              </button> </div>
+                
+                <div  class="popup2"
+      
+      style="
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 20vh;
+      ">
+                  <button id="talent-second-m-btn" onclick="myFunctionLeft()" >
+                   Join Talented pool
+                  </button>
+                  <span class="popuptext2" id="myPopup2"> 
+                <h1 id="span-one">Join Talent <br> Pool</h1>
+              <h2 id="span-two">Interested in joining our Talent pool? </h2>
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLSenlbLaRmpPCRzby9DJ71pyChTBurIhcCFOyiZxEX1IMwxXtg/viewform">  <button id="talent-join-pool-sign-up" onclick="closePopup()">  Click here to sign up </button> </a>
+              </span>
+                </div>
+              
               </div>
             </div>
           </div>
@@ -97,7 +142,7 @@
           </div>
           <div id="talent-div-after-second-m-right">
             <div id="talent-div-after-second-m-right-content">
-              <img src="section2-talent.png" alt="" width="100%" />
+              <img src="section2-talent.png" alt="" width="100%" id="talent-div-after-second-m-right-content-img" />
             </div>
           </div>
         </div>
@@ -231,12 +276,60 @@
           </div>
           <div id="talent-after-fourth-m-btns">
             <div>
-              <button id="talent-after-fourth-m-btn-left">Hire talents</button>
+              
+              <!-- <div
+      class="popup"
+      onclick="myFunction()"
+      style="
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 20vh;
+      "
+    >
+      <a href="#"
+            ><button id="talent-header-btn-hire">Hire Talent<script src="javascript-course.js"></script>
+            </button></a
+          > 
+          <button id="talent-after-fourth-m-btn-left">
+                Hire talents
+              </button>
+      <span class="popuptext" id="myPopup"><h1 id="span1">Talent <br> Requirement</h1>
+      <h2 id="span2">We will love to discuss your business  <br> and your talent needs.</h2> 
+   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYdC1BffwmsdWZpS74Rvq6V_0kuN_HMlMwmoqUvI7WTEAHJg/viewform"> <button id="popup-first-btn">Fill this form</button> </a><br>
+   <h3 id="span3">OR</h3>
+   <a href="https://calendly.com/zuri-team/consult-with-seyi?month=2022-08"> <button id="popup-second-btn">Book a Consultation</button> </a>
+  </span>
+    </div> -->
+               <button id="talent-after-fourth-m-btn-left" onclick="myFunction()">
+                Hire talents
+              </button> 
             </div>
             <div>
-              <button id="talent-after-fourth-m-btn-right">
+              <!-- <button id="talent-after-fourth-m-btn-right">
+                Join talent pool
+              </button> -->
+              
+<div
+      class="popup3"
+      
+      style="
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 20vh;
+      "
+    >
+<button id="talent-after-fourth-m-btn-right" onclick="myFunctionLeftTwo()">
                 Join talent pool
               </button>
+              <span class="popuptext3" id="myPopup3"> 
+                <h1 id="span-one">Join Talent <br> Pool</h1>
+              <h2 id="span-two">Interested in joining our Talent pool? </h2>
+           <a href="https://docs.google.com/forms/d/e/1FAIpQLSenlbLaRmpPCRzby9DJ71pyChTBurIhcCFOyiZxEX1IMwxXtg/viewform">  <button id="talent-join-pool-sign-up" onclick="closePopup()">  Click here to sign up </button> </a>
+              </span>
+</div>
+
             </div>
           </div>
         </div>

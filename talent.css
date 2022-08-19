@@ -1,3 +1,6 @@
+/* #spaning{
+  visibility: hidden;
+} */
 #talent-general-div {
   /* background: blue; */
   /* height: 90vh; */
@@ -9,6 +12,7 @@
   width: 100%;
   display: flex;
   position: sticky;
+  height: 80px;
   top: 0;
 }
 
@@ -57,8 +61,9 @@
   padding-left: 12%;
   padding-right: 12%;
   margin-top: 2vh;
-  border-style: none;
+  border-style:none;
   border-bottom-right-radius: 7px;
+  cursor: pointer;
 }
 #talent-div-first-mother {
   max-width: 100%;
@@ -75,13 +80,16 @@
   margin-bottom: 10vh;
 }
 #talent-div-after-first-left-side {
-  /* background: green; */
-  width: 40%;
+   /*background:green;*/
+   
+  /* width: 40%; */
   margin-top: 15vh;
+  
 }
 #talent-div-after-first-right-side {
   /* background: grey; */
-  width: 40%;
+   width: 40%;  
+  box-sizing: border-box;
 }
 #talent-phead-after-first {
   font-weight: bold;
@@ -93,6 +101,8 @@
 #talent-first-mother-btns {
   /* background: yellow; */
   margin-top: 10vh;
+  display: flex;
+  
 }
 #talent-first-m-btn {
   color: white;
@@ -113,6 +123,7 @@
   padding-bottom: 10px;
   padding-left: 40px;
   padding-right: 40px;
+  
   cursor: pointer;
   border-style: none;
   border-bottom-right-radius: 8px;
@@ -122,7 +133,8 @@
 }
 #talent-first-m-left-img {
   width: 25%;
-  margin-left: 58%;
+  margin-left: 72%;
+  margin-top: 1vh;
 }
 #talent-div-second-mother {
   width: 100%;
@@ -141,7 +153,8 @@
 }
 #talent-div-after-second-m-left {
   /* background: green; */
-  width: 40%;
+  /* width: 40%; */
+  border-style: none;
 }
 #talent-div-after-second-m-right {
   /* background: gray; */
