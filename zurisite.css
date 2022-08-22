@@ -340,6 +340,15 @@
   #toggle{
     display: none;
   }
+  .popup2 .show2 {
+    visibility: visible;
+    /* -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;  */
+    top: 100%;
+    left: 65%;
+transform: translate(-50%,-50%) scale(1);
+
+}
   #talent-div-after-third-mother-img{
     display: none;
   }
@@ -348,9 +357,11 @@
   }
 }
 
+/* normal-css */
 .lady1 {
   margin-top: 10vh;
 }
+/* normal-css-end */
 
 @media screen and (max-width: 900px) {
   #body1 {
@@ -363,6 +374,9 @@
     flex-direction: column;
     flex-shrink: 0;
     font-size: large;
+  }
+  .popup .popuptext{
+    left:-0%;
   }
 
   .slogan {
@@ -440,6 +454,9 @@
 #talent-first-m-left-img {
   width: 25%;
   margin-left: 58%;
+}
+#talent-first-m-btn{
+  margin-top: 16vh;
 }
 
 #talent-div-second-mother {

@@ -14,7 +14,7 @@
     color: #000;
     background-color:white;
     inset: 0;
-    top: 60vh;
+    top: 70vh;
      left: -25%; 
     transform: translate(-50%,-50%);
     height: 400px;
@@ -46,6 +46,7 @@
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s; 
+
 
 }
 /* add animation (fade in the popup) */
@@ -100,11 +101,13 @@
 
 /* popup container */
 .popup2{
-     position:relative; 
-    display: inline-block;
+    display: flex;
+    /* position: relative; */
+    /* display: inline-block; */
     cursor: pointer;
     inset: 0;
     top:-20vh;
+    
 }
 /* the actual popup (appears on top) */
 .popup2 .popuptext2{
@@ -115,7 +118,7 @@
     background-color:white;
     inset: 0;
     /* top: 30vh; */
-    top: 0;
+    top:0;
      left: 50%; 
      transition: transform 0.4s,top 0.4s;
     transform: translate(-50%,-50%)  scale(0.1);
@@ -158,7 +161,8 @@
     visibility: visible;
     /* -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;  */
-    top: 50%;
+    top: 70%;
+    left: 65%;
 transform: translate(-50%,-50%) scale(1);
 
 }
