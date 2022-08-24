@@ -427,7 +427,10 @@ hr{
     text-decoration: none;
     color:  white;
     background-color: #e7332b;
-    padding: 15px 30px;
+    padding-left:6px;
+    padding-right:6px;
+    padding-top:15px;
+    padding-bottom:15px;
     border-radius: 30px;
 }
 .seven_third img{
